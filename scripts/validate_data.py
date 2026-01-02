@@ -5,8 +5,8 @@ logger = get_logger()
 
 
 def main():
-    records = load_and_validate_csv("data/raw/sample_data.csv")
-    logger.info(f"Successfully validated {len(records)} records")
+    df = load_and_validate_csv()
+    logger.info(f"Validated dataset shape: {df.shape}")
 
 
 if __name__ == "__main__":
