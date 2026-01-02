@@ -6,3 +6,5 @@ pyyaml
 loguru
 scikit-learn
 joblib
+fastapi
+uvicorn
